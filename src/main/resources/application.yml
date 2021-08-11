@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: hostname
+    username: username
+    password: password
+    port: 465
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          ssl:
+            enable: true
+          timeout: 5000
+          writetimeout: 5000
